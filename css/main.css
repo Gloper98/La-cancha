@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color:rgb(140,178,124);
+}
+
+div{
+  display: inline-block;
+  height: 250px;
+  width: 130px;
+  border: 5px solid white;
+}
+ #field{
+   margin: 15px;
+   width: 1490px;
+   height: 600px;
+   border: 5px solid white;
+ }
+
+ .bow1{
+   position: relative;
+   top: 180px;
+   right:5px;
+ }
+
+ .bow2{
+   position: relative;
+   top: 180px;
+   right: 0px;
+   bottom: 40px;
+   left: 967px
+
+ }
+
+ .centerCircle{
+   position: relative;
+   border-radius: 50%;
+   width: 250px;
+   height: 250px;
+   top: 170px;
+   left: 30%;
+ }
+
+ .ball1{
+   position: absolute;
+   background-color: white;
+   border-radius: 50%;
+   height: 30px;
+   width: 30px;
+   top: 212px;
+   right: 1300px;
+ }
+
+ .ball2{
+   position: absolute;
+   background-color: white;
+   border-radius: 50%;
+   height: 30px;
+   width: 30px;
+   right: 750px;
+   top: 120px;
+ }
+
+ .ball3{
+   position: absolute;
+   background-color: white;
+   border-radius: 50%;
+   height: 30px;
+   width: 30px;
+   bottom: 220px;
+   right: 185px;;
+ }
